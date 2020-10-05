@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "antiautojump",
+  "version": "1.0",
+
+  "name": "Anti Auto Jump",
+  "description": "AUTO JUMP BANNED!! GET TF OUT!!",
+  "authors": [
+    "OracleBallpark(AKA a random 14 year old)"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/antiautojump/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.fabricmc.example.Main"
+    ]
+  },
+  "mixins": [
+    "antiautojump.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}
