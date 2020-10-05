@@ -1,12 +1,12 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "net.fabricmc.example.mixin",
+  "package": "com.gmail.nystromjp.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
   ],
   "client": [
-    "com.gmail.nystromjp.mixin.ControlsOptionsScreenMixin"
+    "ControlsOptionsScreenMixin"
   ],
   "injectors": {
     "defaultRequire": 1
