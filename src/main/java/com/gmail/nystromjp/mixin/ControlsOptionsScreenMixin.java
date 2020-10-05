@@ -1,4 +1,4 @@
-package net.fabricmc.example.mixin;
+package com.gmail.nystromjp.mixin;
 
 import net.minecraft.client.gui.screen.Screen;
 import net.minecraft.client.gui.screen.options.ControlsListWidget;

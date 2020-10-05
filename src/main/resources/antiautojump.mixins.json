@@ -6,7 +6,7 @@
   "mixins": [
   ],
   "client": [
-    "ControlsOptionsScreenMixin"
+    "com.gmail.nystromjp.mixin.ControlsOptionsScreenMixin"
   ],
   "injectors": {
     "defaultRequire": 1
